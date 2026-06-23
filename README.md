@@ -1,72 +1,236 @@
 # NeetCode Solutions — @Pallavi-Chiluveru
 
-> Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
+> 🚀 Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
+
+---
+
+## 📋 Table of Contents
+
+- [What is this?](#what-is-this)
+- [How GitHub Sync works](#how-github-sync-works)
+- [Repository Structure](#repository-structure)
+- [Supported Languages](#supported-languages)
+- [Settings & Configuration](#settings--configuration)
+- [Quick Start](#quick-start)
+- [Tips for Success](#tips-for-success)
+- [Repository Statistics](#repository-statistics)
 
 ---
 
 ## What is this?
 
-[NeetCode.io](https://neetcode.io) is a coding interview preparation platform featuring curated problems, video solutions, and an in-browser code editor. This repository is automatically populated with your accepted (or all) solutions using the **GitHub Sync** feature.
+[NeetCode.io](https://neetcode.io) is a comprehensive coding interview preparation platform offering:
+
+- ✅ **Curated Problem Sets** — carefully selected LeetCode-style problems
+- 📺 **Video Solutions** — detailed walkthroughs by coding experts
+- 💻 **In-Browser Editor** — write and test code without setup
+- 🤖 **AI-Powered Feedback** — get instant suggestions on your solutions
+
+This repository **automatically captures all your NeetCode submissions** and stores them here on GitHub for:
+- 📊 Progress tracking and portfolio building
+- 🔍 Easy reference and review of past solutions
+- 💼 Demonstrating your coding journey to employers
+- 📈 Analyzing problem patterns and performance
 
 ---
 
 ## How GitHub Sync works
 
-1. **Connect your GitHub account** on [neetcode.io/profile/github](https://neetcode.io/profile/github).
-2. **Auto-commit** — every time you submit a solution on NeetCode, it is pushed here automatically (configurable by status).
-3. **Bulk Sync** — push all your past solutions at once from the GitHub settings page.
-4. **Manual sync** — from the submission history panel on any problem page, sync or remove individual submissions.
+### Getting Started (One-time Setup)
+
+1. **Connect your GitHub account**
+   - Visit [neetcode.io/profile/github](https://neetcode.io/profile/github)
+   - Authorize NeetCode to access your GitHub account
+   - Select or create a repository to sync to
+
+2. **Configure your preferences**
+   - Choose which submissions to sync (all or accepted only)
+   - Enable/disable automatic commits
+   - Select your preferred sync method
+
+### Sync Methods
+
+| Method | Description |
+|--------|-------------|
+| **Auto-commit** | Every submission on NeetCode is automatically pushed to this repo (configurable) |
+| **Bulk Sync** | Push all your past solutions at once from the GitHub settings page |
+| **Manual Sync** | Sync or remove individual submissions from the submission history panel |
 
 ---
 
-## Repository structure
+## Repository Structure
 
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
+Solutions are organized by **topic folder**, then **problem ID**. Each submission is stored as a separate numbered file, allowing you to track your progress and iterations:
 
 ```
 <topic-folder>/
   <problem-id>/
     submission-0.<ext>   ← first submission
     submission-1.<ext>   ← second submission
+    submission-2.<ext>   ← third submission (accepted)
     ...
 ```
 
-**Example:**
+### Examples
+
 ```
-Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
+Data Structures & Algorithms/
+├── two-integer-sum/
+│   └── submission-0.py
+├── binary-search/
+│   ├── submission-0.ts
+│   ├── submission-1.ts
+│   └── submission-2.ts (accepted)
+└── valid-parentheses/
+    └── submission-0.py
+
+Python For Beginners/
+├── python-hello-world/
+│   └── submission-0.py
+└── python-lists/
+    ├── submission-0.py
+    └── submission-1.py (accepted)
 ```
 
 ---
 
-## Supported languages
+## Supported Languages
 
-| Language | Extension |
-|---|---|
-| Python | `.py` |
-| JavaScript | `.js` |
-| TypeScript | `.ts` |
-| Java | `.java` |
-| C++ | `.cpp` |
-| C# | `.cs` |
-| Go | `.go` |
-| Rust | `.rs` |
-| Kotlin | `.kt` |
-| Swift | `.swift` |
-| SQL | `.sql` |
-
----
-
-## Settings
-
-Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io/profile/github):
-
-- **Auto-commit toggle** — enable or disable automatic commits on submission
-- **Status filter** — sync all submissions or accepted only
-- **Rename repository** — rename this repo or start fresh with a new one
-- **Bulk Sync** — push all past solutions at once (rate-limited)
+| Language | Extension | Use Case |
+|---|---|---|
+| Python | `.py` | General-purpose, scripting |
+| JavaScript | `.js` | Frontend, Node.js |
+| TypeScript | `.ts` | Type-safe JavaScript |
+| Java | `.java` | Enterprise, OOP-heavy |
+| C++ | `.cpp` | Performance-critical, systems |
+| C# | `.cs` | .NET ecosystem |
+| Go | `.go` | Concurrency, backend |
+| Rust | `.rs` | Memory safety, performance |
+| Kotlin | `.kt` | Modern JVM language |
+| Swift | `.swift` | iOS/macOS development |
+| SQL | `.sql` | Database queries |
 
 ---
 
-*Generated by [NeetCode GitHub Integration](https://neetcode.io)*
+## Settings & Configuration
+
+Manage your sync preferences at **[neetcode.io/profile/github](https://neetcode.io/profile/github)**:
+
+### Available Options
+
+| Setting | Description |
+|---------|-------------|
+| **Auto-commit Toggle** | Enable or disable automatic commits on each submission |
+| **Status Filter** | Sync all submissions or accepted only (⭐ recommended for clean history) |
+| **Repository Management** | Rename this repo or start fresh with a new one |
+| **Bulk Sync** | Push all past solutions at once (rate-limited to prevent abuse) |
+| **Sync Frequency** | Control how often syncs occur (if configurable) |
+
+### Best Practices
+
+- ✅ Enable auto-commit for seamless tracking
+- ✅ Filter by "accepted" status for a cleaner repository
+- ✅ Use meaningful commit messages (auto-generated by NeetCode)
+- ✅ Review synced solutions regularly for learning
+
+---
+
+## Quick Start
+
+### View Your Solutions
+
+1. Browse the repository by **topic folder**
+2. Each folder contains problems organized by ID
+3. Multiple submissions show your iteration and learning process
+
+### Add a New Problem
+
+1. Solve a problem on [NeetCode.io](https://neetcode.io)
+2. Submit your solution
+3. It automatically syncs to this repository (if auto-commit is enabled)
+
+### Review Your Progress
+
+- **Track iterations**: Multiple submissions per problem show your refinement
+- **Identify patterns**: Group solutions by topic to spot recurring challenges
+- **Benchmark performance**: Compare your approach against video solutions
+
+---
+
+## Tips for Success
+
+### 🎯 Problem-Solving Strategy
+
+- Start with **easy problems** to build confidence
+- Progress to **medium and hard** problems gradually
+- Review the **video solutions** after attempting the problem
+- Implement solutions in **multiple languages** for versatility
+
+### 💡 Learning Best Practices
+
+1. **Don't peek at solutions immediately** — struggle first, then review
+2. **Understand the approach** — don't just memorize code
+3. **Practice similar problems** — reinforce patterns and techniques
+4. **Optimize iteratively** — first aim for correctness, then efficiency
+5. **Comment your code** — explain your logic for future reference
+
+### 📝 Repository Maintenance
+
+- Regularly review your submissions for code quality
+- Delete or clean up incorrect attempts (optional)
+- Add tags or labels for topic mastery tracking
+- Use this as a portfolio piece in job applications
+
+---
+
+## Repository Statistics
+
+**Track your progress:**
+- 📊 **Total Submissions**: View git commit history
+- ✅ **Acceptance Rate**: Measure your success rate
+- 📈 **Topics Covered**: Diversity of problem domains
+- ⏱️ **Learning Timeline**: See your growth over time
+
+Use GitHub's built-in analytics:
+```bash
+# View commit history
+git log --oneline
+
+# Count submissions by language
+find . -type f | grep -E '\.(py|ts|js|java|cpp|cs|go|rs|kt|swift|sql)$' | wc -l
+
+# Find most recent submissions
+git log --pretty=format:"%h %s" -10
+```
+
+---
+
+## 🤝 Contributing
+
+This is a **personal learning repository** synced from NeetCode. To contribute improvements to the structure or documentation:
+
+1. Fork this repository
+2. Make your improvements
+3. Submit a pull request
+4. Ensure your changes don't conflict with auto-synced content
+
+---
+
+## 📚 Resources
+
+- **NeetCode**: https://neetcode.io
+- **LeetCode**: https://leetcode.com
+- **GitHub**: https://github.com
+- **Coding Interview Prep**: [Interview preparation guides](https://neetcode.io)
+
+---
+
+## 📄 License
+
+This repository contains personal solutions and is provided as-is for learning purposes. Respect the intellectual property rights of NeetCode.io and LeetCode.
+
+---
+
+**Last Updated**: Generated by [NeetCode GitHub Integration](https://neetcode.io)
+
+⭐ **Found this helpful?** Consider starring the repository or sharing it with others preparing for coding interviews!
